@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "AvenirCustom";
+    src: url("/Proyecto_Final/src/font/Avenir\ Book.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "AvenirCustom";
+}
+#javier-murillo{
+    background-color: #d4d4d4;
+    color: #fcdbb6;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+    box-shadow: 0px 2px 5px #ccc,2px 0px 5px #ccc;
+}
+
+#start{
+    display: block;
+    width: 50%;
+    height: 97%;
+    text-align: center;
+    background-color: #123c5c;
+}
+
+#container-start{
+    margin-top: 150px;
+}
+
+#img-left{
+    display: block;
+    width: 50%;
+    height: 97%;
+    text-align: center;
+    background-image: url("/Proyecto_Final/src/img/pattern.png");
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    background-color: #1e5f74;
+}
+.form-group {
+    display: block;
+    margin-bottom: 10px;
+
+}
+  
+  .form-group > label {
+    display: block;
+  }
